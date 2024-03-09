@@ -1,0 +1,14 @@
+server:
+  port: 9191
+  servlet:
+    context-path: /hermes
+
+spring:
+  datasource:
+    username: hermes_test
+    url: jdbc:postgresql://localhost:5432/hermes_db
+    password: 123456789
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQL10Dialect
